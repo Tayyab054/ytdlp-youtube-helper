@@ -1,0 +1,14 @@
+[Unit]
+Description=yt-dlp local helper for YouTube userscript
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 %h/yt-helper.py
+Restart=on-failure
+RestartSec=2
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

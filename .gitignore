@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+*.mp4
+*.m4a
+*.webm
